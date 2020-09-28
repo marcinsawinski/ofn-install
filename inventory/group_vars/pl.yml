@@ -1,0 +1,17 @@
+---
+
+# See https://github.com/openfoodfoundation/ofn-install/wiki/Setup for more info
+checkout_zone: Europe
+country_code: PL
+currency: PLN
+locale: pl
+language: en_GB.UTF-8
+language_packages:
+  - language-pack-en-base
+l10n_repo: https://github.com/marcinsawinski/l10n_pl.git
+timezone: Europe/Berlin
+
+developer_email: marcin.sawinski@protonmail.com
+
+users_sysadmin:
+  - "{{ core_devs }}"
